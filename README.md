@@ -1,6 +1,6 @@
 mapreduce_kill
 ==============
-Note : MapReduce Job killing Manager. Hadoop web tool Integration.
+### Note : MapReduce Job killing Manager. Hadoop web tool Integration. ###
 
 ## Screen shot ##
 ![Settings Window](https://raw.github.com/hys9958/mapreduce_kill/master/screen_shot.png)
