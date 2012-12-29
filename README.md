@@ -29,6 +29,6 @@ mapreduce_kill
 3 restart mapred.
 
 ## Usage ##
-- http://hadoop:9001/kiljob
+- http://hadoop:50030/kiljob
 
 hanyounsu@gmail.com
