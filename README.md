@@ -12,8 +12,8 @@ Note : MapReduce Job killing Manager. Hadoop web tool Integration.
 	- hadoop-core-x.jar,
 	
 ## Install ##
-1. hadoop-killjob-1.0.0.jar moves to $HADOOP_HOME/lib.
-2. under items append to $HADOOP_HOME/webapps/job/WEB-INF/web.xml
+- hadoop-killjob-1.0.0.jar moves to $HADOOP_HOME/lib.
+- under items append to $HADOOP_HOME/webapps/job/WEB-INF/web.xml
 
     <servlet>
 	    <servlet-name>org.apache.hadoop.mapred.killjobtracker_jsp</servlet-name>
@@ -24,7 +24,7 @@ Note : MapReduce Job killing Manager. Hadoop web tool Integration.
 	    <url-pattern>/killjob</url-pattern>
     </servlet-mapping>
     	
-3. restart mapred.
+- restart mapred.
 
 ## Usage ##
 - http://hadoop:9001/kiljob
